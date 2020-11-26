@@ -1,10 +1,7 @@
-TypeScript Jest Snapshot Demo
+TypeScript Jest "jest-file-snapshot" Demo
 ===========================
 
-Jest的snapshot测试，在运行时，如果没有发现相应的snap文件（`test.ts.snap`），
-则会创建并将测试的值写成相应的数据放进去，供下次使用；如果发现有，则取出比较。
-
-这种做法感觉挺方便的，准备数据比较方便。
+使用"jest-file-snapshot"来匹配文件
 
 ```
 npm install
